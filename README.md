@@ -1,7 +1,7 @@
 # ML-Example-Small-Project
 机器学习实例小项目 - 使用 Python 3 和 Tensorflow 开发
 
-## Movie-review
+## 一、Movie-review
 电影评论情感分析，使用 Python 3 和 tensorflow 1 进行开发学习，参考实现：https://github.com/AaronJny/emotional_classification_with_rnn（对该项目的学习，详细教程请查看原项目）
 
 本项目对如上项目进行了 python 3 版本的学习和实践，修正了部分在 python 3 中无法运行的错误（如文件读取等），注：tf.nn.dynamic_rnn 方法已被弃用
