@@ -12,3 +12,14 @@
 - 运行 train.py 开始训练
 - eval.py 用于验证和测试
 - 所有配置信息都存放于 settings.py
+
+## 二、Poetry-generator
+古诗生成器，使用了 Python 3 和 tensorflow 2 进行开发学习，参考实现：https://github.com/AaronJny/DeepLearningExamples/tree/master/tf2-rnn-poetry-generator （对该项目的学习，同时对原项目进行了部分修改，加入了日志打印和保存模块，对某些方法进行了新增注释）
+
+原项目基础上新增日志功能模块，当文件大小满 2M 时自动分文件存储日志信息
+
+### 使用方法
+- 运行 train.py 开始训练
+- 运行 eval.py 对训练后的模型进行效果检验
+- 运行过程中的时间及关键步骤信息等存于 logs/poetry.logs 中
+- 所有配置信息都存放于 settings.py
